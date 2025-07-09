@@ -1,6 +1,7 @@
 # Airbnb-Rental-Income-Revenue-Prediction
 
-Objective
+Objective:
+
 The project aimed to predict the success of Airbnb listings in London based on historical data, with "success" defined by revenue (price × number of reviews). The goal was to identify key factors driving rental income and provide actionable insights for hosts.
 
 Key Steps:
