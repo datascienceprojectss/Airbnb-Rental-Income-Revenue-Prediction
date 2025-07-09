@@ -19,14 +19,14 @@ Strong correlations between features like review_scores_communication and review
 
 Feature Engineering:
 
->Created a binary target variable ("Good"/"Bad") based on median revenue.
->Normalized numerical features (price, reviews) to mitigate outliers.
->Used one-hot encoding for categorical variables (e.g., property_type).
+Created a binary target variable ("Good"/"Bad") based on median revenue.
+Normalized numerical features (price, reviews) to mitigate outliers.
+Used one-hot encoding for categorical variables (e.g., property_type).
 
 Modeling:
 
->Algorithm: Random Forest Classifier (chosen for robustness and interpretability).
->Training: 70-30 train-test split.
+Algorithm: Random Forest Classifier (chosen for robustness and interpretability).
+Training: 70-30 train-test split.
 
 Results:
 
@@ -36,9 +36,9 @@ Key features: price_norm (86.6% importance), reviews_norm (13.4%).
 
 Key Insights:
 
->Pricing & Reviews Matter: Listings with competitive prices and moderate review activity were more likely to succeed.
->Revenue as a Metric: While useful, revenue alone may overlook factors like guest satisfaction.
->Model Strengths: Random Forest provided interpretable feature importance but had room for improvement.
+Pricing & Reviews Matter: Listings with competitive prices and moderate review activity were more likely to succeed.
+Revenue as a Metric: While useful, revenue alone may overlook factors like guest satisfaction.
+Model Strengths: Random Forest provided interpretable feature importance but had room for improvement.
 
 Conclusion:
 
